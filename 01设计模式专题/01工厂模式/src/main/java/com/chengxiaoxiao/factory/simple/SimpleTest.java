@@ -9,7 +9,11 @@ package com.chengxiaoxiao.factory.simple;
  * @Version 1.0
  */
 public class SimpleTest {
-    public static void main(String[] args) {
-        new CourseFactory().create("java").record();
+    public static void main(String[] args) throws Exception {
+        CourseFactory.create("java").record();
+
+        CourseFactory.createV2("com.chengxiaoxiao.factory.simple.JavaCourse").record();
+
+        CourseFactory.createV3(JavaCourse.class).record();
     }
 }
