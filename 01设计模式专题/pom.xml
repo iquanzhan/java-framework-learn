@@ -16,6 +16,7 @@
         <module>02单例模式</module>
         <module>03原型模式</module>
         <module>04代理模式</module>
+        <module>05委派模式</module>
     </modules>
 
 
