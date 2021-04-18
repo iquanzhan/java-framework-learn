@@ -21,6 +21,7 @@
         <module>07模版模式</module>
         <module>08适配器模式</module>
         <module>09装饰者模式</module>
+        <module>10观察者模式</module>
     </modules>
 
 
