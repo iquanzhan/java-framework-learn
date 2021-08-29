@@ -1,5 +1,7 @@
 package com.chengxiaoxiao.dynamic.cglib;
 
+
+
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
@@ -14,8 +16,6 @@ import java.lang.reflect.Method;
  * @Date: 2021-01-17 17:33
  */
 public class JDKMeipo implements MethodInterceptor {
-    private Object target;
-
     public Object getInstance(Class clazz) {
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(clazz);
