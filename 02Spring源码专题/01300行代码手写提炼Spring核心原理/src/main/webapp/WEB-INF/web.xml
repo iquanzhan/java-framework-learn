@@ -6,14 +6,14 @@
     <display-name>Archetype Created Web Application</display-name>
     <servlet>
         <servlet-name>gpmvc</servlet-name>
-        <servlet-class>com.chengxiaoxiao.demo.servlet.GPDispatcherServlet</servlet-class>
+        <servlet-class>com.chengxiaoxiao.demo.servlet.v1.GPDispatcherServlet</servlet-class>
         <init-param>
-            <param-name>coontextConfigLocation</param-name>
+            <param-name>contextConfigLocation</param-name>
             <param-value>application.properties</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
         <servlet-name>gpmvc</servlet-name>
-        <url-pattern>/**</url-pattern>
+        <url-pattern>/*</url-pattern>
     </servlet-mapping>
 </web-app>

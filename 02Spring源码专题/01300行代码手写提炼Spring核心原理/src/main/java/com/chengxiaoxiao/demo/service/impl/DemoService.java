@@ -1,5 +1,6 @@
 package com.chengxiaoxiao.demo.service.impl;
 
+import com.chengxiaoxiao.demo.annotation.GPService;
 import com.chengxiaoxiao.demo.service.IDemoService;
 
 /**
@@ -7,6 +8,7 @@ import com.chengxiaoxiao.demo.service.IDemoService;
  * @Author: Cheng XiaoXiao
  * @Date: 2021/8/29 0029 18:12
  */
+@GPService
 public class DemoService implements IDemoService {
     @Override
     public String get(String name) {
