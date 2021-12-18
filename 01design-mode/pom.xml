@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>java-framework-learn</artifactId>
+        <groupId>com.chengxiaoxiao</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>01design-mode</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>01factory</module>
+        <module>02single</module>
+        <module>03prototype</module>
+        <module>04proxy</module>
+        <module>05delegate</module>
+        <module>06strategy</module>
+        <module>07template</module>
+        <module>08adapter</module>
+        <module>09Decorator</module>
+        <module>10Observer</module>
+    </modules>
+
+
+</project>
